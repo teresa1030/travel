@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    width: 1024px;
+    margin:  auto;
+    font-family: 微軟正黑體;
+}
+.header{
+    width: 1024px;
+    padding-bottom: 133px;
+}
+.img{
+    background: url(https://hexschool.github.io/JavaScript_HomeWork/assets/Hero.png)no-repeat center;
+    height: 380px;
+    
+}
+.img h1{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 89px;
+}
+.img .areaList{
+    width: 452px;
+    height: 45px;
+    margin-left: 293px;
+    margin-top: 96px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 微軟正黑體;
+    background-color: rgba(255,255,255,0.7);
+    border: 3px solid #ffffff;
+    border-radius:3px;
+}
+.popular{
+    width: 800px;
+    height: 112px;
+    background-color: #ffffff;
+    margin-top: 79px;
+    margin-left: 112px;
+    border-radius:3px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    
+}
+.popular h2{
+    font-size: 18px;
+    color: #000000;
+    padding-left: 26px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+input{
+    font-weight: 530;
+    border-radius: 5px;
+    width: 130px;
+    height: 42px;
+    margin-top: 14px;
+    font-family:微軟正黑體;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.btn1{
+    margin-left: 51px;
+    background: #8A82CC;
+}
+.btn2{
+    margin-left: 23px;
+    background: #FFA782;
+}
+.btn3{
+    margin-left: 23px;
+    background: #F5D005;
+}
+.btn4{
+    margin-left: 23px;
+    background: #559AC8;
+}
+.content{
+    border-top: 1px dashed #559AC8;
+}
+.footer{
+    margin-top: 150px;
+    width: 1024px;
+    height: 90px;
+    background: #559AC8;
+}
+.footer h1{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 24px;
+}
+.footer p{
+    font-size: 14px;
+    color: #FFD366;
+    text-align: center;
+    padding-top: 15px;
+}
+.content{
+    padding-left: 24px;
+}
+.content h2{
+     text-align: center;
+     font-size: 36px;
+     color: #8A82CC;
+     padding-top: 76px;
+}
+.attractions ul{
+    display: inline-block;
+}
+.attractions li{
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    width: 464px;
+    position: relative;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    padding-bottom: 15px;
+}
+.attractions li .photo{
+    width: 464px;
+    height: 155px;
+}
+.attractions .info{
+    position: relative;
+}
+.attractions .name{
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 20px;
+    left: 22px;
+}
+.attractions  .area{
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 10px;
+    right: 22px;
+}
+.attractions p{
+    padding-left: 20px;
+    padding-top: 16px;
+    font-size:16px;
+    color:#000000;
+    line-height: 24px;
+}
+.attractions p img{
+    margin-right: 10px;
+}
+
+.attractions span{
+    position: absolute;
+    bottom: 15.4px;
+    right: 40px;
+  
+    
+}
+

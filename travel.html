@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="travel.css">
+    
+    <title>高雄旅遊資訊網</title>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+    <div class="img"><h1>高雄旅遊資訊</h1>
+    <select name="" class="areaList" id="">
+            <option value=""> - - 請選擇行政區 - -</option>
+            <option value="前鎮區">前鎮區</option>
+            <option value="楠梓區">楠梓區</option>
+            <option value="三民區">三民區</option>
+            <option value="內門區">內門區</option>
+            <option value="美濃區">美濃區</option>
+            <option value="大樹區">大樹區</option>
+            <option value="小港區">小港區</option>
+            <option value="六龜區">六龜區</option>
+            <option value="仁武區">仁武區</option>
+            <option value="左營區">左營區</option>
+            <option value="田寮區">田寮區</option>
+            <option value="永安區">永安區</option>
+            <option value="甲仙區">甲仙區</option>
+            <option value="鼓山區">鼓山區</option>
+            <option value="杉林區">杉林區</option>
+            <option value="岡山區">岡山區</option>
+            <option value="那瑪夏">那瑪夏</option>
+            <option value="新興區">新興區</option>
+            <option value="苓雅區">苓雅區</option>
+        </select>
+    <div class="popular">
+        <h2>熱門行政區</h2>
+        <input class="btn1" type="button" value="苓雅區"
+        onclick="zone('苓雅區')">
+        <input class="btn2" type="button" value="三民區"
+        onclick="zone('三民區')">
+        <input class="btn3" type="button" value="新興區"
+        onclick="zone('新興區')">
+        <input class="btn4" type="button" value="楠梓區"
+        onclick="zone('楠梓區')">
+    </div>
+  </div>
+    </div>
+    <div class="content">
+    <ul class="attractions"></ul>
+    <div class="clear"></div>
+    </div>
+    
+    <div class="footer">
+        <h1>高雄旅遊網</h1>
+        <p>資料來源：高雄市政府 </p>
+    </div>
+</div>
+
+<script src="travel.js"></script>
+    
+</body>
+</html>
